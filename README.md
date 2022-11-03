@@ -19,6 +19,10 @@ Boilr
 
 ![Usage Demonstration](assets/usage.gif)
 
+To build for arm64:
+docker run -it --rm -v "$PWD":/usr/src/myapp -w /usr/src/myapp arm64v8/golang bash
+go build -v -o boilr-arm64
+
 For more details, see [Introduction](https://github.com/tmrts/boilr/wiki/Introduction) page.
 
 # Features
